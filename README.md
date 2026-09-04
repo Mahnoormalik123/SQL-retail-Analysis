@@ -1,85 +1,143 @@
-# Retail Sales Analysis using SQL
+# 🛍️ Retail Sales & Customer Analytics — SQL
 
 ## Project Overview
 
-This project analyzes retail sales data using SQL to understand sales performance, products, customers, orders, and business trends.
+This project analyzes **2,500+ retail transactions** using **MySQL** to uncover sales trends, customer behavior, product performance, and business insights.
 
-The project focuses on using SQL to answer practical business questions and generate useful insights from retail sales data.
+The project covers both **basic and advanced SQL analysis**.
 
-## Objectives
+---
 
-- Analyze overall sales performance
-- Calculate revenue and order-related metrics
-- Analyze product and category performance
-- Understand customer purchasing behavior
-- Identify sales trends
-- Analyze order status
-- Find top-performing products and categories
-- Answer business questions using SQL
+## 🛠️ Tools & Technologies
 
-## Tools Used
+* **MySQL**
+* **SQL**
+* **Power BI** — Dashboard & Visualization
+* **GitHub** — Project Documentation
 
-- MySQL
-- MySQL Workbench
+---
 
-## SQL Techniques Used
+## Dataset
 
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
-- CASE Statements
-- JOINs
-- Common Table Expressions (CTEs)
-- Window Functions
-- Subqueries
-- Views
+The dataset contains retail transaction information including:
 
-## Data Analysis
+* Transaction & Order Date
+* Customer ID, Gender & Age
+* Customer Segment
+* Country
+* Product Category & Product Name
+* Quantity & Unit Price
+* Total Amount
+* Payment Method
+* Order Status
 
-The project includes analysis of:
+The dataset contains **2,500+ transactions**.
 
-- Total sales
-- Revenue
-- Orders
-- Product performance
-- Category performance
-- Customer behavior
-- Monthly sales
-- Order status
-- Top-performing products
-- Business performance trends
+---
 
-## Data Cleaning
+## 🔍 Analysis Performed
 
-The data was checked and prepared before analysis.
+### Data Quality
 
-The process included:
+* Checked duplicate transaction IDs
+* Checked missing values
+* Validated age, quantity and prices
+* Verified total amount calculations
 
-- Checking duplicate records
-- Checking missing values
-- Checking order status
-- Validating numerical values
-- Preparing data for business analysis
+### Sales Analysis
 
-## Business Questions
+* Total revenue and completed revenue
+* Monthly revenue trends
+* Average Order Value (AOV)
+* Sales by product category
+* Sales by country
 
-The SQL analysis answers questions such as:
+### Customer Analysis
 
-- What is the total revenue?
-- How many orders were completed?
-- What is the performance of different product categories?
-- Which products generate the highest revenue?
-- How do sales change over time?
-- What percentage of orders have different statuses?
-- Which categories perform the best?
-- What are the main sales trends?
+* Unique customers
+* Top customers by spending
+* Customer segment performance
+* Gender and age-group analysis
 
-## Key Insights
+### Product Analysis
 
-The analysis helps identify high-performing products and categories, sales trends, order performance, and areas that may require business attention.
+* Top products by revenue
+* Most popular products by units sold
+* Category-level performance
 
-## Conclusion
+### Order & Payment Analysis
 
-This project demonstrates the use of SQL for data cleaning, business analysis, aggregation, advanced queries, and generating actionable insights from retail sales data.
+* Completed, cancelled and returned orders
+* Return rate
+* Cancellation rate
+* Payment method performance
+
+---
+
+## 🚀 Advanced SQL
+
+The project also demonstrates:
+
+* `GROUP BY` & `HAVING`
+* Aggregate Functions
+* `CASE` Statements
+* Subqueries
+* CTEs
+* Window Functions
+* `RANK()`
+* `LAG()`
+* SQL Views
+
+A reusable `completed_sales` view was created to simplify analysis of completed transactions.
+
+---
+
+## 📈 Power BI Dashboard
+
+An interactive Power BI dashboard was created to visualize:
+
+* Total Revenue
+* Completed Orders
+* Unique Customers
+* Units Sold
+* Average Order Value
+* Monthly Revenue Trend
+* Revenue by Category
+* Revenue by Country
+* Customer Segment Performance
+* Order Status Distribution
+* Top 10 Products
+
+Interactive slicers allow filtering by **date, country, product category, and customer segment**.
+
+---
+
+## Project Structure
+
+```text
+Retail-Sales-SQL-Project/
+│
+├── SQL/
+│   └── retail_sales_project.sql
+│
+├── Dataset/
+│   └── retail_sales.csv
+│
+├── Documentation/
+│
+├── Retail_Sales_Dashboard.pbix
+│
+└── README.md
+```
+
+---
+
+## Key Objective
+
+The main objective of this project is to use SQL to transform raw retail transaction data into **meaningful business insights** that can support decisions related to products, customers, markets, sales performance, and order management.
+
+---
+
+## 💡 Skills Demonstrated
+
+**SQL • Data Cleaning • Data Analysis • Business Analytics • MySQL • CTEs • Window Functions • Data Visualization • Power BI**
