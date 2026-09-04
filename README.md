@@ -121,11 +121,9 @@ Retail-Sales-SQL-Project/
 │   └── retail_sales_project.sql
 │
 ├── Dataset/
-│   └── retail_sales.csv
+│   └── retail_sales_dataset.sql
 │
-├── Documentation/
-│
-├── Retail_Sales_Dashboard.pbix
+├── Retail_Sales_Dashboard,pbix.pbix
 │
 └── README.md
 ```
