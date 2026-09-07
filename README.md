@@ -85,7 +85,6 @@ The project also demonstrates:
 * CTEs
 * Window Functions
 * `RANK()`
-* `LAG()`
 * SQL Views
 
 A reusable `completed_sales` view was created to simplify analysis of completed transactions.
